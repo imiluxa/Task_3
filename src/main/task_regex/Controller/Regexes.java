@@ -15,6 +15,18 @@ public class Regexes {
         return "^[A-Z][a-z]{1,15}$";
     }
 
+    public String getRegexComment() {
+        return "\\w{0,200}";
+    }
+
+    public String getPhoneMobileFirst() {
+        return "^\\+\\d{2}\\(\\d{3}\\)\\d{3}-\\d{2}-\\d{2}$";
+    }
+
+    public String getPhoneMobileSecond() {
+        return "^\\+?\\d{2}?\\(?\\d{3}?\\)?\\d{3}?-?\\d{2}?-?\\d{2}?$";
+    }
+
     // login
     public String getRegexLogin() {
         return "^[A-Za-z0-9_-]{8,20}$";

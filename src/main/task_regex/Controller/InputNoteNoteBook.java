@@ -53,6 +53,10 @@ public class InputNoteNoteBook {
         this.firstName =
                 utilityController.inputStringValueWithScanner
                         (FIRST_NAME, regex.getRegexFirstName());
+        this.lastName =
+                utilityController.inputStringValueWithScanner
+                        (FIRST_NAME, regex.getRegexFirstName());
+
         this.login =
                 utilityController.inputStringValueWithScanner
                         (LOGIN_DATA, regex.getRegexLogin());
