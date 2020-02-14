@@ -1,4 +1,4 @@
-﻿package View;
+package View;
 
 public interface TextConstant {
 

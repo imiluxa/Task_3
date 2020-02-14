@@ -1,4 +1,4 @@
-﻿package Controller;
+package Controller;
 import View.View;
 
 import java.util.Scanner;

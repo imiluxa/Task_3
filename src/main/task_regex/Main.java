@@ -1,4 +1,4 @@
-﻿import Controller.Controller;
+import Controller.Controller;
 import Model.Model;
 import View.View;
 
