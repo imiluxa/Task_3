@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 import static View.TextConstant.INPUT_STRING_DATA;
+import static View.TextConstant.WRONG_INPUT_DATA;
 
 
 public class View {
@@ -48,5 +49,7 @@ public class View {
                 bundle.getString(INPUT_STRING_DATA),
                 bundle.getString(message)));
     }
+
+
 
 }
