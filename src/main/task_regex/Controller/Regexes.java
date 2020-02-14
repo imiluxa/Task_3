@@ -1,12 +1,23 @@
 package Controller;
 
-public interface Regexes {
+public class Regexes {
 
-    // Cyrillic name
-    String REGEX_NAME_UKR = "^[А-ЩЬЮЯҐІЇЄ][а-щьюяґіїє']{1,20}$";
-    // Latin name
-    String REGEX_NAME_LAT = "^[A-Z][a-z]{1,20}$";
+    // Latin First name
+    public String getRegexFirstName() {
+        return "^[A-Z][a-z]{1,20}$";
+    }
+    // Latin Last name
+    public String getRegexLastName() {
+        return "^[A-Z][a-z]{1,15}$";
+    }
+    // Latin patronymic name
+    public String getRegexPatronymicName() {
+        return "^[A-Z][a-z]{1,15}$";
+    }
+
     // login
-    String REGEX_LOGIN = "^[A-Za-z0-9_-]{8,20}$";
+    public String getRegexLogin() {
+        return "^[A-Za-z0-9_-]{8,20}$";
+    }
 
 }
